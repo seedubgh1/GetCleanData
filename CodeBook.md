@@ -25,7 +25,12 @@ bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of e
 and angle(): Angle between to vectors.  The resulting source/raw data file contained 561 variables
 
 * Only variables for mean() and std() were included in the tiny data set (as per requirement)
+* The data set was divided into two sets, a 'train' set and a 'test' set.
 
 * Subjects and activities: Source measurements were take from 30 subjects performing 6 activities.  The activities were walking, walking upstairs, walking downstairs, sitting, standing, laying.  A separate files were provided for subjects and activities, one row for each observation
 
-Transformations or work that you performed to clean up the data
+Transformations on source data
+* The data was not manipulated significantly other than removing only the desired columns and combining the variable, subject and activity data.  A transformation for the activity data was performed to translate the numeric activity to the corresponding character representation.  For example, '1' was translated to 'WALKING'
+* 
+
+** two stars

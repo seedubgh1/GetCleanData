@@ -41,9 +41,9 @@ and angle(): Angle between to vectors.  The resulting source/raw data file conta
 * Read the activity files (y_test.txt, y_train.txt)
 * Translate the activity numbers to character equivalent
 * Read the subject data (subject_test.txt, subject_train.txt)
-* Combine (columnwise) the subject and activity data
-* Combine (columnwise) the subject/activity data to the variable data
-* Combine (rowwise) the test and train data sets (the final tidy data set)
+* Combine (column wise) the subject and activity data
+* Combine (column wise) the subject/activity data to the variable data
+* Combine (row wise) the test and train data sets (the final tidy data set)
 * Create another tidy data set of the mean of each variable, grouped by subject and activity
 
 The tidy data sets can be found in files tidy_data.txt and summarized_data.txt

@@ -22,7 +22,10 @@ meanFreq(): Weighted average of the frequency components to obtain a mean freque
 skewness(): skewness of the frequency domain signal,
 kurtosis(): kurtosis of the frequency domain signal, 
 bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window,
-and angle(): Angle between to vectors.
+and angle(): Angle between to vectors.  The resulting source/raw data file contained 561 variables
 
+* Only variables for mean() and std() were included in the tiny data set (as per requirement)
 
-transformations or work that you performed to clean up the data
+* Subjects and activities: Source measurements were take from 30 subjects performing 6 activities.  The activities were walking, walking upstairs, walking downstairs, sitting, standing, laying.  A separate files were provided for subjects and activities, one row for each observation
+
+Transformations or work that you performed to clean up the data

@@ -25,12 +25,19 @@ bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of e
 and angle(): Angle between to vectors.  The resulting source/raw data file contained 561 variables
 
 * Only variables for mean() and std() were included in the tiny data set (as per requirement)
-* The data set was divided into two sets, a 'train' set and a 'test' set.
+* The data set was divided into two sets, a 'train' set and a 'test' set. The two sets were combined for the tidy data set
 
-* Subjects and activities: Source measurements were take from 30 subjects performing 6 activities.  The activities were walking, walking upstairs, walking downstairs, sitting, standing, laying.  A separate files were provided for subjects and activities, one row for each observation
+* Subjects and activities: Source measurements were take from 30 subjects performing 6 activities.  The activities were walking, walking upstairs, walking downstairs, sitting, standing, laying.  A separate files were provided for subjects and activities, one row for each observation, and one file for each of the test and train sets.
 
 Transformations on source data
-* The data was not manipulated significantly other than removing only the desired columns and combining the variable, subject and activity data.  A transformation for the activity data was performed to translate the numeric activity to the corresponding character representation.  For example, '1' was translated to 'WALKING'
+* The data was not manipulated significantly other than removing only the desired columns and combining the variable, subject and activity data.  A activity data was translated from the numeric activity to the corresponding character representation.  For example, '1' was translated to 'WALKING'
+## Steps performed on the data
+* Read the variable names (features.txt)
+* Read the activity names (activity_labels.txt)
+* For each of the test and train sets, read in the data files(x_test.txt, x_train.txt)
+* Change the variable/column names to the associated variable names
+* Extract the variables that pertain only to mean() and std() variables
+* Read the activity files (y_test.txt, y_train.txt)
+* Translate the activity numbers to character equivalent
 * 
 
-** two stars

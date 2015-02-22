@@ -1,4 +1,4 @@
-### Code book for the Getting and Cleaning Data course project
+## Code book for the Getting and Cleaning Data course project
 
 This document describes the data set produced for the course projet and includes a description of the variables, the data and the transformations used to create the tidy the data.
 
@@ -29,9 +29,10 @@ and angle(): Angle between to vectors.  The resulting source/raw data file conta
 
 * Subjects and activities: Source measurements were take from 30 subjects performing 6 activities.  The activities were walking, walking upstairs, walking downstairs, sitting, standing, laying.  A separate files were provided for subjects and activities, one row for each observation, and one file for each of the test and train sets.
 
-Transformations on source data
+##Transformations on source data
 * The data was not manipulated significantly other than removing only the desired columns and combining the variable, subject and activity data.  A activity data was translated from the numeric activity to the corresponding character representation.  For example, '1' was translated to 'WALKING'
-## Steps performed on the data
+
+### Steps performed on the data
 * Read the variable names (features.txt)
 * Read the activity names (activity_labels.txt)
 * For each of the test and train sets, read in the data files(x_test.txt, x_train.txt)

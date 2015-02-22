@@ -35,15 +35,16 @@ and angle(): Angle between to vectors.  The resulting source/raw data file conta
 ### Steps performed on the data
 * Read the variable names (features.txt)
 * Read the activity names (activity_labels.txt)
-* For each of the test and train sets, read in the data files(x_test.txt, x_train.txt)
-* Change the variable/column names to the associated variable names
+* For each of the test and train sets, read in the variables (x_test.txt, x_train.txt)
+* Change the default column names to the associated variable names
 * Extract the variables that pertain only to mean() and std() variables
 * Read the activity files (y_test.txt, y_train.txt)
 * Translate the activity numbers to character equivalent
 * Read the subject data (subject_test.txt, subject_train.txt)
 * Combine (columnwise) the subject and activity data
-* Combine (columnwise) the subject/activity data to the variable/measurement data
-* Finally, combine (rowwise) the test and train data sets and create another tidy data set of the mean of each variable, grouped by subject and activity
+* Combine (columnwise) the subject/activity data to the variable data
+* Combine (rowwise) the test and train data sets (the final tidy data set)
+* Create another tidy data set of the mean of each variable, grouped by subject and activity
 
 The tidy data sets can be found in files tidy_data.txt and summarized_data.txt
 

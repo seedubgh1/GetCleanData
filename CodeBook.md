@@ -1,6 +1,6 @@
 ## Code Book
 
-This document describes the data set produced for the course projet and includes a description of the variables, the data and the transformations used to create the tidy the data.
+This document describes the data set produced for the course project and includes a description of the data, the variables and the transformations used to create the tidy the data.
 
 ## Source Data and Variables
 * The variables in the source data represent measurements obtained using the embedded accelerometer and gyroscope of a Samsung smart phone worn by a human doing various activities.  The measurements were separated into body and gravity acceleration measurements for each 3-D axis (x, y, z).  Measurements corresponding to the Jerk signal recorded for the body linear acceleration and angular velocity.  In addition, Fast Fourier Transform (FFT) was applied to some of these measurements, yielding additional measurements.  The list of measurements in the raw data set are:  tBodyAcc-XYZ, tGravityAcc-XYZ, tBodyAccJerk-XYZ. tBodyGyro-XYZ, tBodyGyroJerk-XYZ, tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, and tBodyGyroJerkMag.  The measurements with FFT applied are: fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccMag, fBodyAccJerkMag, fBodyGyroMag, and fBodyGyroJerkMag 

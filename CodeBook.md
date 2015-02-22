@@ -30,7 +30,7 @@ and angle(): Angle between to vectors.  The resulting source/raw data file conta
 * Subjects and activities: Source measurements were take from 30 subjects performing 6 activities.  The activities were walking, walking upstairs, walking downstairs, sitting, standing, laying.  A separate files were provided for subjects and activities, one row for each observation, and one file for each of the test and train sets.
 
 ##Transformations
-* The data was not manipulated significantly other than removing only the desired columns and combining the variable, subject and activity data.  A activity data was translated from the numeric activity to the corresponding character representation.  For example, '1' was translated to 'WALKING'
+* The data was not manipulated significantly other than removing only the desired columns and combining the variable, subject and activity data.  Activity data was translated from the numeric representation to the corresponding character representation.  For example, '1' was translated to 'WALKING'
 
 ### Steps performed on the data
 * Read the variable names (features.txt)

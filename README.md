@@ -7,3 +7,4 @@ File descriptions:
 * run_analysis.R   - performs the 'analysis'; it creates a tidy dataset from the raw data provided
 * tidy_data.txt - unsummarized tidy data set
 * summarized_data.txt - contains the mean of the variables in the tidy data grouped by subject and activity
+* tidy_variables.txt - a list of the variables contained in the tidy, dataset
